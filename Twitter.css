@@ -1,0 +1,375 @@
+@-moz-document domain("twitter.com") {
+
+body {
+  font-family: "ProggyTinySZ" !important;
+  background: #272727 !important;
+  color: #dcdcdc !important;
+  line-height: 18px !important;
+  box-shadow: none !important;
+  text-transform: capitalize !important;
+}
+.js-tweet-text{
+  color: #dcdcdc !important;
+}
+.username, js-action-profile-name{
+  color: #dcdcdc !important;
+}
+.dropdown-caret, .caret-inner{
+  border-left: 6px solid transparent !important;
+  border-right: 6px solid transparent !important;
+  border-bottom: 6px solid #272727 !important;
+}
+.js-timeline-title, .header-inner{
+  display:none !important;
+}
+#user_time_zone{
+  background: #272727 !important;
+  border: 0px solid #353535 !important;
+}
+.dashboard, .tweet-box-title, #tweet-box-profile, .h2, .recent_photos, .media-thumbnails{
+  display: none !important;
+}
+.profile-card.profile-header .stats a {
+  border-left: 0px solid #272727 !important;
+  text-transform: capitalize !important;
+}
+.profile-header{
+  border-radius: 0px 0px 0px 0px !important;
+}
+.inline-reply-tweetbox{
+  background-color: #272727 !important;
+  border: 0px !important;
+}
+.twttr-dialog-inside{
+  background-color: #272727 !important;
+  border-radius: 0px 0px 0px 0px !important;
+}
+b, .fullname{
+  color: #dcdcdc !important;
+}
+.icon{
+  background-color: #dcdcdc !important;
+}
+.replies, .view-more-container{
+  border-top: 0px solid rgb(220, 220, 220) !important;
+}
+a, .btn-link, .btn-link:focus{
+  font-family: "ProggyTinySZ" !important;
+} 
+.follow-bar{
+  background-color: #272727 !important;
+  border-bottom: 0px solid rgb(229, 229, 229)!important;
+}
+.icon, .lock-large{
+  background-color: #272727 !important;
+}
+.dm-threads {
+  background: #272727 !important;
+}
+.dm-thread-link{
+  border-bottom: 0px solid rgb(229, 229, 229)!important;
+}
+.btn {
+  font-weight: normal !important;
+  text-transform: capitalize !important;
+}
+.h3 {
+  font-weight: normal !important;
+}
+.recent-tweets .tweet {
+  min-height: 32px !important;
+  border-bottom: 0px none !important;
+  border-top: 0px solid rgb(232, 232, 232) !important;
+  border-radius: 0px 0px 0px 0px !important;
+}
+.dm-tweetbox, .tweet-form{
+  background : #272727 !important;
+  border-top: 0px solid rgb(232, 232, 232) !important;
+  box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.5) inset !important;
+}
+.dm-convo {
+  background : #272727 !important;
+}
+.dm-message{
+  background : #353535 !important;
+  border-radius: 0px 0px 0px 0px !important;
+  box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.5) inset !important;
+  border: 0px solid #202020 !important;
+}
+#tweet-box-dm-conversation, .tweet-box.rich-editor{
+  background: #272727 !important;
+  color: #dcdcdc !important;
+  border: 1px solid #202020 !important;
+}
+.dm-thread-link:hover{
+  background: #353535 !important;
+  border-bottom: 0px solid rgb(229, 229, 229)!important;
+}
+.twttr-dialog-header h3 {
+  font-size: 12px !important;
+}
+body.ms-windows, body.ms-windows label, body.ms-windows input, body.ms-windows textarea, body.ms-windows select, body.ms-windows button {
+  font-family: "ProggyTinySZ" !important;
+}
+.content-inner, .no-stream-end{
+  background: #272727 !important;
+}
+#user_screen_name{
+  background: #272727 !important;
+  color: #dcdcdc !important;
+}
+#user_email, .email-input{
+  background: #272727 !important;
+  color: #dcdcdc !important;
+}
+.checkbox, .control-label{
+  color: #dcdcdc !important;
+}
+#export_button, .btn{
+  color: #dcdcdc !important;
+}
+#settings_save, .btn, primary-btn{
+  color: #dcdcdc !important;
+  opacity: 1 !important;
+}
+.twttr-dialog-footer{
+  background: #272727 !important;
+  text-shadow: 0px 0px 0px rgb(255, 255, 255) !important;
+  box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.5) inset !important;
+  border-radius: 0px 0px 0px 0px !important;
+  border-top: 0px solid rgb(229, 229, 229)!important;
+}
+.dm-dialog .twttr-dialog-header, .dm-dialog .twttr-dialog-footer {
+  background-color: #272727 !important;
+}
+p, .js-tweet-text, .tweet-text{
+  color: #dcdcdc !important;
+}
+#profile_popup .go-to-profile {
+  border-top: 0px solid rgb(220, 220, 220) !important;
+}
+h3, .modal-title{
+  font-weight: normal !important;
+  text-shadow: none !important;
+  width: 100%
+}
+.stream-end-inner{
+  background-color: #272727 !important;
+  color: #dcdcdc !important;
+  border-radius: 0px 0px 0px 0px !important;
+}
+.tweet-form.condensed .tweet-box {
+  background: #272727 !important;
+  color: #dcdcdc !important;
+}
+input, textarea, div[contenteditable="true"], select {
+  background-color: rgb(220, 220, 220) !important;
+  border: 0px solid rgb(220, 220, 220) !important;
+  border-radius: 0px 0px 0px 0px !important;
+}
+.tweet .sm-reply, .tweet .sm-rt, .tweet .sm-fav, .tweet .sm-image, .tweet .sm-video, .tweet .sm-audio, .tweet .sm-geo, .tweet .sm-in, .tweet .sm-trash, .tweet .sm-more, .tweet .sm-page, .tweet .sm-embed, .tweet .sm-summary, .tweet .sm-chat, .timelines-navigation .active .profile-nav-icon, .timelines-navigation .profile-nav-icon:hover, .timelines-navigation .profile-nav-link:focus .profile-nav-icon, .sm-top-tweet, .metadata a.tweet-geo-text:hover .sm-geo, .discover-item .js-action-card-search:hover .sm-search, .discover-item .js-action-card-search:focus .sm-search {
+  background-color: #dcdcdc !important;
+}
+input, textarea, div[contenteditable="true"] {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0) inset, 0px 0px 0px rgba(220, 220, 220, 0.0) !important;
+}
+a, .btn-link, .btn-link:focus, .pretty-link b, .pretty-link:hover s, .pretty-link:hover b, .pretty-link:focus s, .pretty-link:focus b, .metadata a:hover, .metadata a:focus, .account-group:hover .fullname, .account-group:focus .fullname, .account-summary:focus .fullname, .stats a:hover, .stats a:hover strong, .stats a:focus, .stats a:focus strong, .profile-modal-header .fullname a:hover, .profile-modal-header .username a:hover, .profile-modal-header .fullname a:focus, .profile-modal-header .username a:focus, .story-article:hover .metadata, .story-article .metadata a:focus, .find-friends-sources li:hover .source, .stream-item a:hover .fullname, .stream-item a:focus .fullname, .stream-item .view-all-supplements:hover, .stream-item .view-all-supplements:focus, .tweet .time a:hover, .tweet .time a:focus, .tweet-actions a, .tweet .details.with-icn b, .stream-item:hover .original-tweet .expand-action-wrapper, .stream-item .original-tweet.focus .expand-action-wrapper, .opened-tweet.original-tweet .expand-action-wrapper, .stream-item:hover .original-tweet .details b, .stream-item .original-tweet.focus .details b, .stream-item.open .original-tweet .details b, .simple-tweet:hover .details b, .simple-tweet.focus .details b, .simple-tweet.open .details b, .simple-tweet:hover .details .expand-action-wrapper, .simple-tweet.focus .details .expand-action-wrapper, .simple-tweet.open .details .collapse-action-wrapper, .simple-tweet:hover .details .simple-details-link, .simple-tweet.focus .details .simple-details-link, .client-and-actions a:hover, .client-and-actions a:focus, .dismiss-promoted:hover b, .tweet .context .pretty-link:hover s, .tweet .context .pretty-link:hover b, .tweet .context .pretty-link:focus s, .tweet .context .pretty-link:focus b, .list .username a:hover, .list .username a:focus, .list-membership-container .create-a-list, .list-membership-container .create-a-list:hover, .story-header:hover .view-tweets, .card .list-details a:hover, .card .list-details a:focus, .card .card-body:hover .attribution, .card .card-body .attribution:focus, .events-card .card-body:hover .attribution, .events-card .card-body .attribution:focus, .new-tweets-bar, .onebox .soccer ul.ticker a:hover, .onebox .soccer ul.ticker a:focus, .discover-item-actions a, .remove-background-btn, .stream-item-activity-me .latest-tweet .tweet-row a:hover, .stream-item-activity-me .latest-tweet .tweet-row a:focus, .stream-item-activity-me .latest-tweet .tweet-row a:hover b, .stream-item-activity-me .latest-tweet .tweet-row a:focus b {
+  color: #F0BF03 !important;
+}
+#tweet-box-template{
+  background: #272727 !important;
+  color: #dcdcdc !important;
+}
+.stream-item-activity-me {
+  background: #272727 !important;
+  border-bottom: 0px solid rgb(220, 220, 220) !important;
+}
+.view-more-container{
+  background: #272727 !important;
+}
+.view-more-link{
+  color: #dcdcdc !important;
+}
+h3, .modal-title{
+  color: #dcdcdc !important;
+}
+.wrapper{
+  background-color: #272727 !important;
+  background-image: none !important;
+}
+.stream-item-activity-line{
+  background: #272727 !important;
+  border-bottom: 0px solid rgb(220, 220, 220) !important;
+}
+.dropdown-menu{
+  background: #272727 !important;
+}
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-menu .dropdown-link:hover, .dropdown-menu .dropdown-link:focus, .dropdown-menu .selected a, .dropdown-menu .dropdown-link.selected {
+  color: #F0BF03 !important;
+  font-weight: normal !important;
+  background-image: -moz-linear-gradient(center top , rgb(39, 39, 39) 0px, rgb(39, 39, 39) 100%) !important;
+  background-color: #272727 !important;
+}
+.js-dm-dialog{
+  font-weight: normal !important;
+}
+.dropdown-menu li > a, .dropdown-menu .dropdown-link {
+  color: #dcdcdc !important;
+}
+.replies-to{
+  padding-top: 0px !important;
+  border-top: 0px solid rgb(220, 220, 220) !important;
+}
+.modal-body{
+  background: #272727 !important;
+  border-radius: 0px 0px 0px 0px !important;
+}
+.modal-header{
+  background: #272727 !important;
+  border-radius: 0px 0px 0px 0px !important;
+  box-shadow: 0px 0px 0px rgb(255, 255, 255) inset !important;
+  border-bottom: 0px solid rgb(220, 220, 220) !important;
+}
+.modal-close{
+  background: #272727 !important;
+  border-left: 0px solid rgb(220, 220, 220) !important;
+  border-radius: 0px 0px 0px 0px !important;
+  box-shadow: 0px 0px 0px rgba(220, 220, 220, 0) inset !important;
+}
+.modal-close:hover{
+  background: #272727 !important;
+}
+#tweet-box-global{
+  background: #272727 !important;
+  color: #dcdcdc !important;
+  border-color: #353535 !important;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05) inset !important;
+}
+.tweet-counter{
+  text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.75) !important;
+}
+.btn{
+  border-color: #272727 !important;
+  cursor: pointer !important;
+  box-shadow: 0px 0px 0px rgba(220, 220, 220, 0) !important;
+  background-color: rgb(39,39,39) !important;
+  background-image: linear-gradient(rgb(39,39,39), rgb(39,39,39)) !important;
+  box-shadow: 0px 0px 0px rgba(220, 220, 220, 0) !important;
+  text-shadow: 0px 0px 0px rgba(220, 220, 220, 0) !important;
+}
+.btn-tweet{
+  background: #272727 !important;
+  border: none !important;
+}
+div#page-container.wrapper{
+width: 522px !important;
+}
+.global-nav, .global-nav .well, .nav .active > a, .btn-tweet, .btn-tweet:hover, .btn-tweet:active, .nav .active > a, .card-soccer .cover{
+  background-image: url(http://i.imgur.com/kZdCr3a.png?1) !important;
+  color: #DCDCDC !important;
+}
+.container{
+  background: #272727 !important;
+}
+.global-nav{
+  background: #272727 !important;
+  box-shadow: 0px 0px 0px rgba(220, 220, 220, 0) !important;
+}
+.text{
+  font-weight: normal !important;
+  line-height: 1 !important;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.0) !important;
+}
+.avatar{
+border-radius: 0px 0px 0px 0px !important;
+}
+.nav, .active a{
+  color: #F0BF03 !important;
+  background-color: #272727 !important;
+  box-shadow: none !important;
+}  
+i, .icon{
+  background-image: url(http://i.imgur.com/ww5L0Tu.png) !important;
+}
+.account, .interest-category, .list, .saved-search, .tweet, .app{
+  border-bottom: none !important
+}
+strong{
+  color: #f1cf03 !Important
+}
+.following-text action-text, .js-action-follow.follow-text.action-text, .follow-btn, .btn.js-combo-btn.js-recommended-item{
+  background-image:-moz-linear-gradient(center top, #272727, #272727) !important;
+  border-radius: 0px !important;
+  text-transform: capitalize !important;
+}
+.twitter-timeline-link{
+  color:#dcdcdc !important;
+}
+.fullname{
+  font-weight: normal !important;
+}
+.actions, .js-actions{
+  background: none !important;
+}
+.actions, .js-actions a, span{
+  color: #F0bf0e !Important
+}
+.tweet b{
+  color: #F09f03 !Important
+}
+.activity-supplement{
+  background: #272727 !important;
+  color: #dcdcdc !important;
+}
+.tweet { 
+  background-color: #272727 !important;
+  border-bottom: 0px !important; 
+  border-top: 0px !important;
+  border-radius: 0px !important;
+ 
+  }
+.new-tweets-bar{
+  background-color: #272727 !important;
+  border-bottom: 0px !important;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+  padding-right: 0px !important;
+  padding-left: 0px !important;  
+  border-top: 4px !important;
+  text-shadow: 0px 0px 0px rgba(220, 220, 220, 0) !important;
+  color: #F0bf03 !important;
+  position: static !important;
+}
+.stream-item{ 
+  border-bottom: 0px !important;
+  border-top: 0px !important;
+}
+.module, .profile-card, .profile-banner-footer, .clearfix, .stats, .a, .flex-module{
+  background-color: #272727 !important;
+  text-transform: lowercase !important;
+  text-shadow: 0px 0px 0px rgb(255, 255, 255) !important;
+}
+
+.front-signin{
+  position:fixed !important;
+  top:39% !important;
+  left:37.3% !important;
+  background: none !important;
+}
+.front-card{
+  position:fixed;
+  width:300px !important;
+  height:300px !important;
+  margin:-300px 0 0 -165px !important;
+  background-image:url(https://twitter.com/images/resources/twitter-bird-dark-bgs.png) !important;
+}
+.global-nav{
+  background-image: none !important;
+  box-shadow: none;
+}
+.front-welcome, .front-signup, .front-bg, .footer, .trends-container, .profile-summary, .home-tweet-box, .profile-header-inner, .search-input, .search-icon, .list-link, .mini-profile, .account-summary, .trends, .larry-topbar, i.topbar-divider, .js-wtf-module, .site-footer,.bird-topbar-etched,#user-dropdown-toggle span.caret,li.profile i.nav-me,
+#user-dropdown li.dropdown-divider,.dropdown-menu li.current-user, .nav-topics{
+  display:none !important;  
+}
+
+}
