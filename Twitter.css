@@ -29,6 +29,9 @@ body {
 .dashboard, .tweet-box-title, #tweet-box-profile, .h2, .recent_photos, .media-thumbnails{
   display: none !important;
 }
+.account, .js-actionable-user, .js-profile-popup-actionable{
+  background: #272727 !important;
+}
 .profile-card.profile-header .stats a {
   border-left: 0px solid #272727 !important;
   text-transform: capitalize !important;
