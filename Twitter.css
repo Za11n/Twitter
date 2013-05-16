@@ -22,9 +22,22 @@ body {
 .js-timeline-title, .header-inner{
   display:none !important;
 }
+.social-proof{
+  border-top: 0px !important;
+  text-transform: capitalize !important;
+}
+.mini-profile-footer{
+  border-bottom: 0px !important;
+}
+hr{
+  display:none !important;
+}
+.go-to-profile{
+  border-top: 0px !important;
+}
 #user_time_zone{
   background: #272727 !important;
-  border: 0px solid #353535 !important;
+  border: 0px solid  !important;
 }
 .dashboard, .tweet-box-title, #tweet-box-profile, .h2, .recent_photos, .media-thumbnails{
   display: none !important;
@@ -40,12 +53,12 @@ body {
   border-radius: 0px 0px 0px 0px !important;
 }
 .tweet {
-  border-top: 0px solid rgb(232, 232, 232) !important;
+  border-top: 0px !important;
 }
 .stats, a {
-  border-top: 0px solid rgb(232, 232, 232) !important;
-  border-bottom: 0px solid rgb(232, 232, 232) !important;
-  border-left: 0px solid rgb(232, 232, 232) !important;
+  border-top: 0px !important;
+  border-bottom: 0px !important;
+  border-left: 0px !important;
 }
 .inline-reply-tweetbox{
   background-color: #272727 !important;
@@ -62,14 +75,14 @@ b, .fullname{
   background-color: #dcdcdc !important;
 }
 .replies, .view-more-container{
-  border-top: 0px solid rgb(220, 220, 220) !important;
+  border-top: 0px solid !important;
 }
 a, .btn-link, .btn-link:focus{
   font-family: "ProggyTinySZ" !important;
 } 
 .follow-bar{
   background-color: #272727 !important;
-  border-bottom: 0px solid rgb(229, 229, 229)!important;
+  border-bottom: 0px solid !important;
 }
 .icon, .lock-large{
   background-color: #272727 !important;
@@ -78,7 +91,7 @@ a, .btn-link, .btn-link:focus{
   background: #272727 !important;
 }
 .dm-thread-link{
-  border-bottom: 0px solid rgb(229, 229, 229)!important;
+  border-bottom: 0px solid !important;
 }
 .btn {
   font-weight: normal !important;
@@ -90,13 +103,13 @@ a, .btn-link, .btn-link:focus{
 .recent-tweets .tweet {
   min-height: 32px !important;
   border-bottom: 0px none !important;
-  border-top: 0px solid rgb(232, 232, 232) !important;
+  border-top: 0px solid !important;
   border-radius: 0px 0px 0px 0px !important;
 }
 .dm-tweetbox, .tweet-form{
   background : #272727 !important;
-  border-top: 0px solid rgb(232, 232, 232) !important;
-  box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.5) inset !important;
+  border-top: 0px solid !important;
+  box-shadow: 0px 0px 0px !important;
 }
 .dm-convo {
   background : #272727 !important;
@@ -104,7 +117,7 @@ a, .btn-link, .btn-link:focus{
 .dm-message{
   background : #353535 !important;
   border-radius: 0px 0px 0px 0px !important;
-  box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.5) inset !important;
+  box-shadow: 0px 0px 0px !important;
   border: 0px solid #202020 !important;
 }
 #tweet-box-dm-conversation, .tweet-box.rich-editor{
@@ -114,7 +127,7 @@ a, .btn-link, .btn-link:focus{
 }
 .dm-thread-link:hover{
   background: #353535 !important;
-  border-bottom: 0px solid rgb(229, 229, 229)!important;
+  border-bottom: 0px solid !important;
 }
 .twttr-dialog-header h3 {
   font-size: 12px !important;
@@ -124,6 +137,10 @@ body.ms-windows, body.ms-windows label, body.ms-windows input, body.ms-windows t
 }
 .content-inner, .no-stream-end{
   background: #272727 !important;
+  border-left: 0px !important; 
+  border-right: 0px !important;
+  border-bottom: 0px !important;  
+  border-top: 0px !important;  
 }
 #user_screen_name{
   background: #272727 !important;
@@ -145,10 +162,10 @@ body.ms-windows, body.ms-windows label, body.ms-windows input, body.ms-windows t
 }
 .twttr-dialog-footer{
   background: #272727 !important;
-  text-shadow: 0px 0px 0px rgb(255, 255, 255) !important;
-  box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.5) inset !important;
+  text-shadow: 0px 0px 0px !important;
+  box-shadow: 0px 0px 0px !important;
   border-radius: 0px 0px 0px 0px !important;
-  border-top: 0px solid rgb(229, 229, 229)!important;
+  border-top: 0px solid !important;
 }
 .dm-dialog .twttr-dialog-header, .dm-dialog .twttr-dialog-footer {
   background-color: #272727 !important;
@@ -157,13 +174,13 @@ p, .js-tweet-text, .tweet-text{
   color: #dcdcdc !important;
 }
 .content-main, .in-reply-to, .tweet {
-  border-bottom: 0px solid rgb(232, 232, 232) !important;
+  border-bottom: 0px solid !important;
 }
 .recent-tweets, li:first-child .tweet {
 border-top: 0px solid #272727 !important;
 }
 #profile_popup .go-to-profile {
-  border-top: 0px solid rgb(220, 220, 220) !important;
+  border-top: 0px solid !important;
 }
 h3, .modal-title{
   font-weight: normal !important;
@@ -181,15 +198,15 @@ h3, .modal-title{
   color: #dcdcdc !important;
 }
 input, textarea, div[contenteditable="true"], select {
-  background-color: rgb(220, 220, 220) !important;
-  border: 0px solid rgb(220, 220, 220) !important;
+  background-color: #dcdcdc !important;
+  border: 0px solid  !important;
   border-radius: 0px 0px 0px 0px !important;
 }
 .tweet .sm-reply, .tweet .sm-rt, .tweet .sm-fav, .tweet .sm-image, .tweet .sm-video, .tweet .sm-audio, .tweet .sm-geo, .tweet .sm-in, .tweet .sm-trash, .tweet .sm-more, .tweet .sm-page, .tweet .sm-embed, .tweet .sm-summary, .tweet .sm-chat, .timelines-navigation .active .profile-nav-icon, .timelines-navigation .profile-nav-icon:hover, .timelines-navigation .profile-nav-link:focus .profile-nav-icon, .sm-top-tweet, .metadata a.tweet-geo-text:hover .sm-geo, .discover-item .js-action-card-search:hover .sm-search, .discover-item .js-action-card-search:focus .sm-search {
   background-color: #dcdcdc !important;
 }
 input, textarea, div[contenteditable="true"] {
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0) inset, 0px 0px 0px rgba(220, 220, 220, 0.0) !important;
+  box-shadow: 0px 0px 0px !important;
 }
 a, .btn-link, .btn-link:focus, .pretty-link b, .pretty-link:hover s, .pretty-link:hover b, .pretty-link:focus s, .pretty-link:focus b, .metadata a:hover, .metadata a:focus, .account-group:hover .fullname, .account-group:focus .fullname, .account-summary:focus .fullname, .stats a:hover, .stats a:hover strong, .stats a:focus, .stats a:focus strong, .profile-modal-header .fullname a:hover, .profile-modal-header .username a:hover, .profile-modal-header .fullname a:focus, .profile-modal-header .username a:focus, .story-article:hover .metadata, .story-article .metadata a:focus, .find-friends-sources li:hover .source, .stream-item a:hover .fullname, .stream-item a:focus .fullname, .stream-item .view-all-supplements:hover, .stream-item .view-all-supplements:focus, .tweet .time a:hover, .tweet .time a:focus, .tweet-actions a, .tweet .details.with-icn b, .stream-item:hover .original-tweet .expand-action-wrapper, .stream-item .original-tweet.focus .expand-action-wrapper, .opened-tweet.original-tweet .expand-action-wrapper, .stream-item:hover .original-tweet .details b, .stream-item .original-tweet.focus .details b, .stream-item.open .original-tweet .details b, .simple-tweet:hover .details b, .simple-tweet.focus .details b, .simple-tweet.open .details b, .simple-tweet:hover .details .expand-action-wrapper, .simple-tweet.focus .details .expand-action-wrapper, .simple-tweet.open .details .collapse-action-wrapper, .simple-tweet:hover .details .simple-details-link, .simple-tweet.focus .details .simple-details-link, .client-and-actions a:hover, .client-and-actions a:focus, .dismiss-promoted:hover b, .tweet .context .pretty-link:hover s, .tweet .context .pretty-link:hover b, .tweet .context .pretty-link:focus s, .tweet .context .pretty-link:focus b, .list .username a:hover, .list .username a:focus, .list-membership-container .create-a-list, .list-membership-container .create-a-list:hover, .story-header:hover .view-tweets, .card .list-details a:hover, .card .list-details a:focus, .card .card-body:hover .attribution, .card .card-body .attribution:focus, .events-card .card-body:hover .attribution, .events-card .card-body .attribution:focus, .new-tweets-bar, .onebox .soccer ul.ticker a:hover, .onebox .soccer ul.ticker a:focus, .discover-item-actions a, .remove-background-btn, .stream-item-activity-me .latest-tweet .tweet-row a:hover, .stream-item-activity-me .latest-tweet .tweet-row a:focus, .stream-item-activity-me .latest-tweet .tweet-row a:hover b, .stream-item-activity-me .latest-tweet .tweet-row a:focus b {
   color: #F0BF03 !important;
@@ -200,7 +217,7 @@ a, .btn-link, .btn-link:focus, .pretty-link b, .pretty-link:hover s, .pretty-lin
 }
 .stream-item-activity-me {
   background: #272727 !important;
-  border-bottom: 0px solid rgb(220, 220, 220) !important;
+  border-bottom: 0px solid !important;
 }
 .view-more-container{
   background: #272727 !important;
@@ -217,7 +234,7 @@ h3, .modal-title{
 }
 .stream-item-activity-line{
   background: #272727 !important;
-  border-bottom: 0px solid rgb(220, 220, 220) !important;
+  border-bottom: 0px solid !important;
 }
 .dropdown-menu{
   background: #272727 !important;
@@ -225,7 +242,7 @@ h3, .modal-title{
 .dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-menu .dropdown-link:hover, .dropdown-menu .dropdown-link:focus, .dropdown-menu .selected a, .dropdown-menu .dropdown-link.selected {
   color: #F0BF03 !important;
   font-weight: normal !important;
-  background-image: -moz-linear-gradient(center top , rgb(39, 39, 39) 0px, rgb(39, 39, 39) 100%) !important;
+  background-image: -moz-linear-gradient(center top , #272727, #272727 100%) !important;
   background-color: #272727 !important;
 }
 .js-dm-dialog{
@@ -236,7 +253,7 @@ h3, .modal-title{
 }
 .replies-to{
   padding-top: 0px !important;
-  border-top: 0px solid rgb(220, 220, 220) !important;
+  border-top: 0px solid !important;
 }
 .modal-body{
   background: #272727 !important;
@@ -245,14 +262,14 @@ h3, .modal-title{
 .modal-header{
   background: #272727 !important;
   border-radius: 0px 0px 0px 0px !important;
-  box-shadow: 0px 0px 0px rgb(255, 255, 255) inset !important;
-  border-bottom: 0px solid rgb(220, 220, 220) !important;
+  box-shadow: 0px 0px 0px inset !important;
+  border-bottom: 0px solid !important;
 }
 .modal-close{
   background: #272727 !important;
-  border-left: 0px solid rgb(220, 220, 220) !important;
+  border-left: 0px solid !important;
   border-radius: 0px 0px 0px 0px !important;
-  box-shadow: 0px 0px 0px rgba(220, 220, 220, 0) inset !important;
+  box-shadow: 0px 0px 0px inset !important;
 }
 .modal-close:hover{
   background: #272727 !important;
@@ -261,19 +278,22 @@ h3, .modal-title{
   background: #272727 !important;
   color: #dcdcdc !important;
   border-color: #353535 !important;
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05) inset !important;
+  box-shadow: 0px 0px 0px inset !important;
 }
 .tweet-counter{
-  text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.75) !important;
+  text-shadow: 0px 0px 0px !important;
+}
+.topbar{
+  box-shadow: none !important;
 }
 .btn{
   border-color: #272727 !important;
   cursor: pointer !important;
-  box-shadow: 0px 0px 0px rgba(220, 220, 220, 0) !important;
-  background-color: rgb(39,39,39) !important;
-  background-image: linear-gradient(rgb(39,39,39), rgb(39,39,39)) !important;
-  box-shadow: 0px 0px 0px rgba(220, 220, 220, 0) !important;
-  text-shadow: 0px 0px 0px rgba(220, 220, 220, 0) !important;
+  box-shadow: 0px 0px 0px !important;
+  background-color: #272727 !important;
+  background-image: none !important;
+  box-shadow: 0px 0px 0px!important;
+  text-shadow: 0px 0px 0px !important;
 }
 .btn-tweet{
   background: #272727 !important;
@@ -282,8 +302,8 @@ h3, .modal-title{
 div#page-container.wrapper{
 width: 522px !important;
 }
-.global-nav, .global-nav .well, .nav .active > a, .btn-tweet, .btn-tweet:hover, .btn-tweet:active, .nav .active > a, .card-soccer .cover{
-  background-image: url(http://i.imgur.com/kZdCr3a.png?1) !important;
+.global-nav .well, .nav .active > a, .btn-tweet, .btn-tweet:hover, .btn-tweet:active, .nav .active > a, .card-soccer .cover{
+  background-image: url(http://i.imgur.com/mjIkcPB.png) !important;
   color: #DCDCDC !important;
 }
 .container{
@@ -291,15 +311,18 @@ width: 522px !important;
 }
 .global-nav{
   background: #272727 !important;
-  box-shadow: 0px 0px 0px rgba(220, 220, 220, 0) !important;
+  box-shadow: 0px 0px 0px !important;
 }
 .text{
   font-weight: normal !important;
   line-height: 1 !important;
-  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.0) !important;
+  text-shadow: 0px 0px 0px !important;
 }
 .avatar{
-border-radius: 0px 0px 0px 0px !important;
+  border-radius: 0px 0px 0px 0px !important;
+}
+s{
+  color: #dcdcdc !important;
 }
 .nav, .active a{
   color: #F0BF03 !important;
@@ -313,7 +336,8 @@ i, .icon{
   border-bottom: none !important
 }
 strong{
-  color: #f1cf03 !Important
+  color: #f1cf03 !important;
+  font-weight: normal !important;
 }
 .following-text action-text, .js-action-follow.follow-text.action-text, .follow-btn, .btn.js-combo-btn.js-recommended-item{
   background-image:-moz-linear-gradient(center top, #272727, #272727) !important;
@@ -354,7 +378,7 @@ strong{
   padding-right: 0px !important;
   padding-left: 0px !important;  
   border-top: 4px !important;
-  text-shadow: 0px 0px 0px rgba(220, 220, 220, 0) !important;
+  text-shadow: 0px 0px 0px !important;
   color: #F0bf03 !important;
   position: static !important;
 }
@@ -365,7 +389,7 @@ strong{
 .module, .profile-card, .profile-banner-footer, .clearfix, .stats, .a, .flex-module{
   background-color: #272727 !important;
   text-transform: lowercase !important;
-  text-shadow: 0px 0px 0px rgb(255, 255, 255) !important;
+  text-shadow: 0px 0px 0px !important;
 }
 .flex-module{
   border-bottom: 0px solid #dcdcdc !important;
