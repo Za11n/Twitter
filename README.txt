@@ -7,13 +7,13 @@ There are still a few things I'd like to fix with some dropdowns and minor eleme
 Main colours which should make it easier for you to change
 Background : #272727
 Borders/Minor stuff: #353535
-				   #202020
+                   #202020
 Main Text : #DCDCDC
 Other Texts/Links : #F0BF03 
-		   #F09F03
-		   #F0BF0E
-		   #F1CF03
+           #F09F03
+           #F0BF0E
+           #F1CF03
 
-If you want to change the nav bag icons here's an already version : http://i.imgur.com/ww5L0Tu.png
+If you want to change the nav icons here's an already modified version : http://i.imgur.com/ww5L0Tu.png
 
 One more thing this is a really stripped down theme a lot features are hidden but you shouldn't have a problem making them visible if you take a look at the bottom of the style.
