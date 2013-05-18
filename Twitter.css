@@ -9,7 +9,6 @@ body {
   text-transform: capitalize !important;
 }
 
-
 /*Colours*/
 
 /*dcdcdc*/
@@ -120,22 +119,25 @@ b, .fullname{
 
 /*Highlight Colours*/
 .new-tweets-bar, .nav, a, .btn-link, .dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-menu .dropdown-link:hover, .dropdown-menu .dropdown-link:focus, .dropdown-menu .selected a, .dropdown-menu .dropdown-link.selected, .btn-link:focus, .pretty-link b, .pretty-link:hover s, .pretty-link:hover b, .pretty-link:focus s, .pretty-link:focus b, .metadata a:hover, .metadata a:focus, .account-group:hover .fullname, .account-group:focus .fullname, .account-summary:focus .fullname, .stats a:hover, .stats a:hover strong, .stats a:focus, .stats a:focus strong, .profile-modal-header .fullname a:hover, .profile-modal-header .username a:hover, .profile-modal-header .fullname a:focus, .profile-modal-header .username a:focus, .story-article:hover .metadata, .story-article .metadata a:focus, .find-friends-sources li:hover .source, .stream-item a:hover .fullname, .stream-item a:focus .fullname, .stream-item .view-all-supplements:hover, .stream-item .view-all-supplements:focus, .tweet .time a:hover, .tweet .time a:focus, .tweet-actions a, .tweet .details.with-icn b, .stream-item:hover .original-tweet .expand-action-wrapper, .stream-item .original-tweet.focus .expand-action-wrapper, .opened-tweet.original-tweet .expand-action-wrapper, .stream-item:hover .original-tweet .details b, .stream-item .original-tweet.focus .details b, .stream-item.open .original-tweet .details b, .simple-tweet:hover .details b, .simple-tweet.focus .details b, .simple-tweet.open .details b, .simple-tweet:hover .details .expand-action-wrapper, .simple-tweet.focus .details .expand-action-wrapper, .simple-tweet.open .details .collapse-action-wrapper, .simple-tweet:hover .details .simple-details-link, .simple-tweet.focus .details .simple-details-link, .client-and-actions a:hover, .client-and-actions a:focus, .dismiss-promoted:hover b, .tweet .context .pretty-link:hover s, .tweet .context .pretty-link:hover b, .tweet .context .pretty-link:focus s, .tweet .context .pretty-link:focus b, .list .username a:hover, .list .username a:focus, .list-membership-container .create-a-list, .list-membership-container .create-a-list:hover, .story-header:hover .view-tweets, .card .list-details a:hover, .card .list-details a:focus, .card .card-body:hover .attribution, .card .card-body .attribution:focus, .events-card .card-body:hover .attribution, .events-card .card-body .attribution:focus, .new-tweets-bar, .onebox .soccer ul.ticker a:hover, .onebox .soccer ul.ticker a:focus, .discover-item-actions a, .remove-background-btn, .stream-item-activity-me .latest-tweet .tweet-row a:hover, .stream-item-activity-me .latest-tweet .tweet-row a:focus, .stream-item-activity-me .latest-tweet .tweet-row a:hover b, .stream-item-activity-me .latest-tweet .tweet-row a:focus b, .active a{
-  color: #F0bf03 !important;
+  color: #B0B0FF !important;
 }
 .actions, .js-actions a, span{
-  color: #F0bf0e !Important
+  color: #D7B0FF !Important
 }
 .tweet b{
-  color: #F09f03 !Important
+  color: #B0B0FF !Important
 }
 strong{
-  color: #f1cf03 !important;
+  color: #FEB0FF !important;
 }
 
 /*Misc*/
 .dropdown-caret, .caret-inner{
   border-left: 6px solid transparent !important;
   border-right: 6px solid transparent !important;
+}
+.modal-content{
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(255, 255, 255, 0.) inset !important;
 }
 .js-timeline-title, .header-inner{
   display:none !important;
@@ -330,7 +332,7 @@ width: 522px !important;
   box-shadow: none !important;
 }  
 i, .icon{
-  background-image: url(http://i.imgur.com/ww5L0Tu.png) !important;
+  background-image: url(http://i.imgur.com/LNe1ERP.png) !important;
 }
 .account, .interest-category, .list, .saved-search, .tweet, .app{
   border-bottom: none !important
